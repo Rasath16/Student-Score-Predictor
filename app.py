@@ -248,15 +248,15 @@ elif page == "📈 Model Performance":
     st.header("📈 Model Performance")
     
     # Load model metrics (you can update these from your notebook results)
-    st.info("📝 Note: Update these metrics from your notebook results")
+    st.info("Linear Regression Model")
     
     col1, col2, col3 = st.columns(3)
     with col1:
         st.metric("R² Score", " 0.7696", help="Coefficient of determination")
     with col2:
-        st.metric("RMSE", "1.8046", help="Root Mean Squared Error")
+        st.metric("RMSE", "1.8044", help="Root Mean Squared Error")
     with col3:
-        st.metric("MAE", "0.4503", help="Mean Absolute Error")
+        st.metric("MAE", "0.4524", help="Mean Absolute Error")
     
     st.markdown("---")
     
