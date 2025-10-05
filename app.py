@@ -252,11 +252,11 @@ elif page == "📈 Model Performance":
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("R² Score", "0.XXXX", help="Coefficient of determination")
+        st.metric("R² Score", " 0.7696", help="Coefficient of determination")
     with col2:
-        st.metric("RMSE", "X.XXXX", help="Root Mean Squared Error")
+        st.metric("RMSE", "1.8046", help="Root Mean Squared Error")
     with col3:
-        st.metric("MAE", "X.XXXX", help="Mean Absolute Error")
+        st.metric("MAE", "0.4503", help="Mean Absolute Error")
     
     st.markdown("---")
     
@@ -265,7 +265,7 @@ elif page == "📈 Model Performance":
     st.info("Feature importance shows which factors have the most impact on exam scores.")
     
     # Placeholder - you can load this from your model
-    st.write("Run the training notebook to see feature importance visualization here.")
+    st.write("Attendance, Hours Studied, Access to resources low")
     
     st.markdown("---")
     
