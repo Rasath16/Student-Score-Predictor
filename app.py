@@ -247,7 +247,7 @@ elif page == "📊 Data Explorer":
 elif page == "📈 Model Performance":
     st.header("📈 Model Performance")
     
-    # Load model metrics (you can update these from your notebook results)
+    # Load model metrics 
     st.info("Linear Regression Model")
     
     col1, col2, col3 = st.columns(3)
@@ -260,11 +260,11 @@ elif page == "📈 Model Performance":
     
     st.markdown("---")
     
-    # Feature importance (from your notebook)
+    # Feature importance 
     st.subheader("🔑 Feature Importance")
     st.info("Feature importance shows which factors have the most impact on exam scores.")
     
-    # Placeholder - you can load this from your model
+    
     st.write("Attendance, Hours Studied, Access to resources low")
     
     st.markdown("---")
