@@ -41,7 +41,7 @@ def load_model():
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('data/processed/Cleaned_student_data.csv')
+    df = pd.read_csv('data/Cleaned_student_data.csv')
     return df
 
 # Initialize
