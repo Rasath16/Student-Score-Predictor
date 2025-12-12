@@ -2,6 +2,9 @@
 
 A machine learning application that predicts student exam scores based on various factors like study hours, attendance, family background, and more.
 
+## Demo Video 👇
+https://github.com/user-attachments/assets/c782133e-f464-4891-8c9b-eafeaba51ed3
+
 ## 📋 Project Structure
 
 ```
